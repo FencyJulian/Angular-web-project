@@ -1,0 +1,50 @@
+
+ 
+  <div class="topnav" id="myTopnav">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#catchpokemon">Catch Pokemon</a>
+    <div class="dropdown">
+      <button class="dropbtn">Location
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Calcutta</a>
+        <a href="#">Kochi</a>
+         
+        <p style="color: grey;font-size: large;text-align: left;">comming soon</p>
+        <ul><a href="#">Madurai</a></ul>
+        
+        
+      </div>
+    </div> 
+    <div class="dropdown">
+      <button class="dropbtn">Sign up
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <ul><p>sign in via:</p>
+        <a class="facebook" href="#">Facebook</a>
+        <a class="twitter" href="#">twitter</a>
+        
+        </ul>
+      </div>
+    </div> 
+    
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    <div id="imag" href="#"><img  src="assets/images/pokemon.png"></div>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+
+  
